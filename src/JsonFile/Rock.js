@@ -1,0 +1,147 @@
+const Rock = [
+    {
+      "actor": "Jack Black (Tenacious D)",
+      "song": "Tribute",
+      "genre": "Rock",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3"
+      ,
+      "img": "/Music/william-recinos-qtYhAQnIwSE-unsplash.jpg",
+    },
+    {
+      "actor": "Jared Leto (Thirty Seconds to Mars)",
+      "song": "The Kill",
+      "genre": "Rock",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3"
+      ,
+      "img": "/Music/stefany-andrade-GbSCAAsU2Fo-unsplash.jpg",
+    },
+    {
+      "actor": "Zooey Deschanel (She & Him)",
+      "song": "Why Do You Let Me Stay Here?",
+      "genre": "Rock/Indie",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3"
+      ,
+      "img": "/Music/saso-tusar-QtgGYlug6Cw-unsplash.jpg",
+    },
+    {
+      "actor": "David Duchovny",
+      "song": "Hell or Highwater",
+      "genre": "Rock",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3"
+      ,
+      "img": "/Music/matheus-ferrero-r4TcI0Yo_rw-unsplash.jpg",
+    },
+    {
+      "actor": "Keanu Reeves (Dogstar)",
+      "song": "Your World",
+      "genre": "Rock",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/markus-spiske-hU9gx8YfVK4-unsplash.jpg",
+    },
+    {
+      "actor": "Russell Crowe (30 Odd Foot of Grunts)",
+      "song": "The Photograph Kills",
+      "genre": "Rock",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/lorenzo-spoleti-MlhJNEUQpBs-unsplash.jpg",
+    },
+    {
+      "actor": "Johnny Depp (Hollywood Vampires)",
+      "song": "Heroes",
+      "genre": "Rock",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/kelly-sikkema-HwU5H9Y6aL8-unsplash.jpg",
+    },
+    {
+      "actor": "Kiefer Sutherland",
+      "song": "Not Enough Whiskey",
+      "genre": "Country Rock",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/kari-shea-laHwVPkMTzY-unsplash.jpg",
+    },
+    {
+      "actor": "Bruce Willis",
+      "song": "Respect Yourself",
+      "genre": "Rock/Blues",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/john-matychuk-gUK3lA3K7Yo-unsplash.jpg",
+    },
+    {
+      "actor": "Minnie Driver",
+      "song": "Everything I’ve Got In My Pocket",
+      "genre": "Rock/Indie",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/jens-thekkeveettil-dBWvUqBoOU8-unsplash.jpg",
+    },
+    {
+      "actor": "Jeff Bridges",
+      "song": "What a Little Bit of Love Can Do",
+      "genre": "Rock/Country",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/james-owen-c-NBiJrhwdM-unsplash.jpg",
+    },
+    {
+      "actor": "Steve Martin",
+      "song": "Atheists Don’t Have No Songs",
+      "genre": "Rock/Folk",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/israel-palacio-Y20JJ_ddy9M-unsplash.jpg",
+    },
+    {
+      "actor": "Billy Bob Thornton (The Boxmasters)",
+      "song": "The Poor House",
+      "genre": "Rock/Country",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/gabriel-gurrola-2UuhMZEChdc-unsplash.jpg",
+    },
+    {
+      "actor": "Kevin Bacon (The Bacon Brothers)",
+      "song": "Go My Way",
+      "genre": "Rock",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/eric-nopanen-8e0EHPUx3Mo-unsplash.jpg",
+    },
+    {
+      "actor": "Rick Springfield",
+      "song": "Jessie's Girl",
+      "genre": "Rock",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/efe-kurnaz-RnCPiXixooY-unsplash.jpg",
+    },
+    {
+      "actor": "Ryan Gosling (Dead Man's Bones)",
+      "song": "My Body's a Zombie for You",
+      "genre": "Rock/Indie",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/diego-catto-DI6ywiG5N0g-unsplash.jpg",
+    },
+    {
+      "actor": "Juliette Lewis (Juliette and the Licks)",
+      "song": "You're Speaking My Language",
+      "genre": "Rock",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/clem-onojeghuo-Sgthj0HW6ec-unsplash.jpg",
+    },
+    {
+      "actor": "Jason Schwartzman (Coconut Records)",
+      "song": "West Coast",
+      "genre": "Rock/Indie",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/claus-grunstaudl-dKeB0-M9iiA-unsplash.jpg",
+    },
+    {
+      "actor": "Scarlett Johansson",
+      "song": "Falling Down",
+      "genre": "Rock/Indie",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/clark-tibbs-oqStl2L5oxI-unsplash.jpg",
+    },
+    {
+      "actor": "Russell Crowe",
+      "song": "Testify",
+      "genre": "Rock",
+      "spotify_link": "/Audio/Color_Out_-_Host.mp3",
+      "img": "/Music/austin-prock-Hz3Kjzgyv_Q-unsplash.jpg",
+    }
+  ]
+  export default Rock;

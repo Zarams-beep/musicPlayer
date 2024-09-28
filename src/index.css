@@ -1,0 +1,384 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+:root{
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+  color: black;
+  padding-bottom: 1000px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.dark{
+  background-color: darkslategray;
+  color: white;
+}
+.asideContainer{
+  background-color: darkslategrey;
+  position: fixed;
+  top: 1.5rem;
+  left: 1rem;
+  /* bottom: 5rem; */
+  padding: 15px;
+  width: 15rem;
+  height: 34rem;
+  border-radius: 2rem;
+  color: white;
+}
+.dark .asideContainer{
+  background-color: rgba(0, 0, 0, 0.521);
+}
+
+.asideContainer header{
+  /* background-color: palevioletred; */
+}
+.asideContainer header h6{
+  color: rgb(215, 230, 182);
+  font-weight: bold;
+  text-align: center;
+}
+.asideSection1{
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 3.4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.cutPartAside{
+  width: 100%;
+}
+.asideSection1 .homeAside{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: 1rem;
+  padding: 8px;
+  border-radius: 5px;
+  transition: background-color .3s ease-in-out, cursor .3s ease-in-out, color .3s ease-in-out;
+}
+.asideSection1 .homeAside:hover{
+  background-color: rgb(215, 230, 182);
+  cursor: pointer;
+  color: black;
+}
+.asideIcon,.homeAside p{
+  font-size: 1.2rem;
+}
+.homeAside .asideArrow{
+  font-size: 1.2rem;
+  margin-top: .6rem;
+}
+
+.smallAsidePlaylist{
+  text-align: center;
+  height: 5rem;
+  overflow-x: auto;
+}
+.smallAsidePlaylist .smallAside2{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: .5rem;
+}
+.smallAside2 img{
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+/* header */
+.headerContainer{
+  position: absolute;
+  left: 18rem;
+  top: 1.8rem;
+  background-color: darkslategrey;
+  border-radius: 2rem;
+  right: 5rem;
+  z-index: 1;
+}
+.dark .headerContainer{
+  background-color: rgba(0, 0, 0, 0.521);
+}
+.headerContainer header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.searchSection{
+  width: 100%;
+  position: relative;
+}
+.divSearch{
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: white;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border: 1px solid gray;
+  padding: 10px;
+}
+.divSearch2{
+  border-radius: 2rem;
+}
+.divSearch:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px gray;
+}
+.headerSearchIcon{
+  margin-left: .5rem;
+}
+.searchBar{
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  border: 1px solid gray;
+  padding-top: .3rem;
+  padding-left: .5rem;
+  height: auto;
+  max-height: 20rem;
+  overflow-x: auto;
+}
+.divTheSearch{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem;
+  color: black;
+  transition: background-color .3s ease-in-out, cursor .3s ease-in-out, color .3s ease-in-out;
+}
+.divTheSearch:hover{
+  background-color: rgb(215, 230, 182);
+  cursor: pointer;
+  color: black;
+}
+
+.divSearch #search{
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: black;
+  margin-left: .6rem;
+}
+.headerSearchIcon{
+  font-size: 1.5rem;
+  color: black;
+}
+.headerSide2{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  width: 40%;
+  justify-content: end;
+}
+.registerContainer{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.headerSide2 button{
+  border: 1px solid white;
+  border-radius: 2rem;
+  color: white;
+  padding: 10px;
+}
+.registerContainer button{
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+.registerContainer button:hover{
+  background-color: rgb(215, 230, 182);
+  color: black;
+}
+.lightSwitch{
+  /* background-color: red; */
+}
+.lightSwitch .btnSwitch{
+  border: none;
+}
+.homeContainer{
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.upperPartContainer{
+  margin-top: 10rem;
+  width: 70%;
+  margin-left: 13rem;
+  overflow: hidden;
+  position: relative;
+  
+}
+.upperPartContainer2{
+  padding-top: 1rem;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  height: 18rem;
+  position: relative;
+  margin-left: 5rem;
+}
+.playlistCard {
+  height: 15rem;
+  width: 20%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  list-style: none;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1;
+  margin-left: -30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.playlistCard:hover {
+  transform: scale(1.05);
+}
+.playlistCard.activeIt {
+  transform: scale(1.2);
+  z-index: 2;
+  opacity: 1; 
+}
+.playlistCard {
+  height: 15rem;
+  width: 20%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative; /* Ensure relative positioning for the button */
+  list-style: none;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  z-index: 1; /* Default z-index for all cards */
+  margin-left: -30px; /* Slightly shift left for stacking effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.playlistCard button {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.7); 
+  border: none;
+  border-radius: 50%; 
+  padding: 10px; 
+  cursor: pointer; 
+  z-index: 10;
+}
+
+.playlistContent {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 1rem;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.438);
+  padding: 5px;
+}
+.songTitle {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.actorName {
+  font-size: .8rem;
+}
+
+/* category */
+.selectCatContainer{
+  width: 75%;
+  margin-left: 14rem;
+}
+.selectCatContainer header h6{
+  font-weight: bold;
+}
+.selectCatContainer header{
+  margin-bottom: .5rem;
+}
+.categoriesChoice{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.categoriesChoice button{
+  width: 100%;
+  padding: 8px;
+  background-color: darkslategrey;
+  color: white;
+  cursor: pointer;
+}
+.dark .categoriesChoice button, .dark .btnSelectContainer button{
+  /* color: black; */
+  background-color: rgba(0, 0, 0, 0.521);
+  /* border: n; */
+}
+.showData{
+  position: relative;
+}
+.showData h5{
+  text-align: center;
+  margin-top: 1rem;
+}
+.showData ul{
+  list-style: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20rem;
+  border-radius: 15px;
+  position: relative;
+}
+.showData li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showData .playlistContent{
+  width: 70%;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.btnSelectContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+.btnSelectContainer button{
+  width: 10rem;
+  padding: 10px;
+  background-color: darkslategrey;
+  color: white;
+  cursor: pointer;
+}
